@@ -1,2 +1,2 @@
 all: Game.cpp
-	g++ -I OpenGL\ Libraries/ -I ./ Game.cpp
+	g++ -I OpenGL\ Libraries/include/ -I ./ Game.cpp

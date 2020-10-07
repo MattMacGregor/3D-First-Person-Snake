@@ -21,7 +21,7 @@ public:
 	void setFloat(const std::string &name, float value) const;
 	void setVec3(const char * name, float one, float two, float three);
 	void setMatrix4(const char * name, glm::mat4);
-	void Shader::setVec3(const char * name, glm::vec3 & vector);
+	void setVec3(const char * name, glm::vec3 & vector);
 };
 
 Shader::Shader(const GLchar * vertexPath, const GLchar * fragmentPath)

@@ -74,9 +74,11 @@ int main()
 		for (int i = 0; i < NUMB_PTLIGHT; i++)
 		{
 			currentShader->setVec3(("pointLight[" + std::to_string(i) + "].position").c_str(), lightPositions[i]);
-			currentShader->setVec3(("pointLight[" + std::to_string(i) + "].ambient").c_str(), glm::vec3(0.1f));
-			currentShader->setVec3(("pointLight[" + std::to_string(i) + "].diffuse").c_str(), glm::vec3(1.0f));
-			currentShader->setVec3(("pointLight[" + std::to_string(i) + "].specular").c_str(), glm::vec3(1.0f));
+			glm::vec3 tempVecTenth = glm::vec3(0.1f);
+			glm::vec3 tempVecOne = glm::vec3(1.0f);
+			currentShader->setVec3(("pointLight[" + std::to_string(i) + "].ambient").c_str(), tempVecTenth);
+			currentShader->setVec3(("pointLight[" + std::to_string(i) + "].diffuse").c_str(), tempVecOne);
+			currentShader->setVec3(("pointLight[" + std::to_string(i) + "].specular").c_str(), tempVecOne);
 			currentShader->setFloat(("pointLight[" + std::to_string(i) + "].constant").c_str(), 1.0f);
 			currentShader->setFloat(("pointLight[" + std::to_string(i) + "].linear").c_str(), 0.09f);
 			currentShader->setFloat(("pointLight[" + std::to_string(i) + "].quadratic").c_str(), 0.032f);
@@ -121,7 +123,7 @@ int main()
 		if (gameOver)
 		{
 			break;
-		} 
+		}
 		else if (50 - head.position.x < 0.5f || -50 - head.position.x > -0.5f || 50 - head.position.y < 0.5f || -50 - head.position.y > -0.5f || 50 - head.position.z < 0.5f || -50 - head.position.z > -0.5f)
 		{
 			break;
