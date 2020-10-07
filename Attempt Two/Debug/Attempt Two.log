@@ -1,0 +1,12 @@
+﻿  Game.cpp
+c:\users\ian macgregor\desktop\opengl libraries\include\mesh.h(75): warning C4018: '<': signed/unsigned mismatch
+c:\users\ian macgregor\desktop\opengl libraries\include\mesh.h(87): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\ian macgregor\desktop\opengl libraries\include\model.h(37): warning C4018: '<': signed/unsigned mismatch
+c:\users\ian macgregor\desktop\opengl libraries\include\game.cpp(36): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\ian macgregor\desktop\opengl libraries\include\game.cpp(100): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\ian macgregor\desktop\opengl libraries\include\game.cpp(101): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\ian macgregor\desktop\opengl libraries\include\game.cpp(222): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\ian macgregor\desktop\opengl libraries\include\game.cpp(226): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\ian macgregor\desktop\opengl libraries\include\game.cpp(228): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Attempt Two.vcxproj -> C:\Users\Ian MacGregor\documents\visual studio 2017\Projects\3D First Person Snake\Debug\Attempt Two.exe
+  Attempt Two.vcxproj -> C:\Users\Ian MacGregor\documents\visual studio 2017\Projects\3D First Person Snake\Debug\Attempt Two.pdb (Partial PDB)

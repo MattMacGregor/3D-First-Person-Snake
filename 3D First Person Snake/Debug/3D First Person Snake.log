@@ -1,0 +1,8 @@
+﻿  Snake.cpp
+c:\users\ian macgregor\desktop\opengl libraries\include\mesh.h(73): warning C4018: '<': signed/unsigned mismatch
+c:\users\ian macgregor\desktop\opengl libraries\include\mesh.h(85): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\ian macgregor\desktop\opengl libraries\include\model.h(37): warning C4018: '<': signed/unsigned mismatch
+c:\users\ian macgregor\desktop\opengl libraries\include\model.h(162): warning C4553: '==': operator has no effect; did you intend '='?
+c:\users\ian macgregor\documents\visual studio 2017\projects\3d first person snake\3d first person snake\snake.cpp(109): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  3D First Person Snake.vcxproj -> C:\Users\Ian MacGregor\documents\visual studio 2017\Projects\3D First Person Snake\Debug\3D First Person Snake.exe
+  3D First Person Snake.vcxproj -> C:\Users\Ian MacGregor\documents\visual studio 2017\Projects\3D First Person Snake\Debug\3D First Person Snake.pdb (Partial PDB)
